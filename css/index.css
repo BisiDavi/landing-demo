@@ -1,0 +1,102 @@
+img.profileImg {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.article {
+    box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
+}
+.authorProfile p {
+    text-align: center;
+    margin: 2px 0px;
+}
+
+.article-header {
+    background-color: #f8f9fa;
+}
+
+.article-header h3 {
+    text-align: center;
+}
+.article-header img {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.article-content h1 {
+    text-decoration: underline;
+}
+
+.site-content {
+    background-color: #ebebeb;
+}
+
+/* tab box */
+.services-tab {
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+}
+.row.services-tab .bg-white {
+    width: 400px;
+}
+.tab-box {
+    border: 1px solid #8080803d;
+    width: 100%;
+}
+ul#myTab {
+    background-color: #f8f9fa;
+}
+
+.tab-box ul li a {
+    color: indianred;
+}
+
+.tab-box ul li {
+    list-style: none;
+}
+
+ul#myTab li {
+    list-style: none;
+}
+
+.tab-box ul li {
+    list-style: square;
+    color: gray;
+}
+
+#myTab.nav-tabs .nav-item.show .nav-link,
+#myTab.nav-tabs .nav-link.active {
+    border-bottom-color: red;
+    background-color: none;
+    border-color: transparent;
+    align-items: center;
+    justify-content: center;
+    font-weight: 1000;
+    display: flex;
+    height: 70px;
+    margin: auto;
+    color: black;
+    border-bottom-color: red;
+}
+
+#myTab.nav-tabs .nav-link:focus,
+#myTab.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+ul#myTab {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myTab a {
+    color: black;
+}
