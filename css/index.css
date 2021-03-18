@@ -34,6 +34,11 @@ img.profileImg {
 }
 
 /* tab box */
+@media (max-width: 999px) {
+    .services-tab {
+        display: none;
+    }
+}
 .services-tab {
     position: absolute;
     right: 150px;
@@ -82,7 +87,7 @@ ul#myTab li {
     height: 70px;
     margin: auto;
     color: black;
-    border-bottom-color: red;
+    border-bottom: 2px solid red;
 }
 
 #myTab.nav-tabs .nav-link:focus,
